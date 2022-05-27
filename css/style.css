@@ -1,0 +1,449 @@
+/*
+    font-family: 'Damion', cursive;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-family: 'Yellowtail', cursive;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                     NAV                                    */
+/* -------------------------------------------------------------------------- */
+
+header {
+  width: 100%;
+  height: 5.5rem;
+}
+#logo {
+  font-family: "Yellowtail", cursive;
+  font-weight: 600;
+  font-size: 2rem;
+}
+nav li,
+nav a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.3rem;
+  color: black;
+}
+.innerNav li,
+#book {
+  margin-right: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+nav {
+  width: 100%;
+}
+#search i,
+#bag i {
+  font-size: 1.3rem;
+}
+#book i {
+  margin-right: 0.5rem;
+}
+.innerNav a:hover,
+#book a:hover {
+  color: red;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  SECTION 1                                 */
+/* -------------------------------------------------------------------------- */
+
+.section1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1595475884562-073c30d45670?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.svgDivider1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.svgDivider1 svg {
+  position: relative;
+  display: block;
+  width: calc(144% + 1.3px);
+  height: 86px;
+  transform: rotateY(180deg);
+}
+.svgDivider1 .shape-fill {
+  fill: #ffffff;
+}
+.section1Container {
+  height: 100%;
+  width: 100%;
+  margin-top: 16rem;
+}
+.section1-bx1 {
+  height: 70rem;
+  padding-left: 10rem;
+}
+.section1-bx1 h1 {
+  font-size: 15rem;
+  font-family: "Damion", cursive;
+  min-width: max-content;
+}
+.section1-bx1 p {
+  font-size: 3rem;
+  font-family: "Roboto Condensed", sans-serif;
+  min-width: max-content;
+}
+.section1-bx1 button {
+  font-size: 2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  width: 15rem;
+  padding: 1rem;
+  margin-top: 3rem;
+  border: none;
+  background-color: rgb(218, 187, 187);
+}
+.section1-bx1 button:hover {
+  color: white;
+  background-color: black;
+  border: none;
+}
+.section1-bx1 i {
+  margin-right: 0.5rem;
+}
+.section1-bx2 {
+  padding-left: 10rem;
+}
+.section1-bx2Inner {
+  width: 27rem;
+  height: 32rem;
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+}
+.section1-bx2 h3 {
+  font-size: 1.7rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  height: 5rem;
+  border-bottom: 1px dotted white;
+}
+.section1-bx2 h3 span {
+  border-left: 3px solid white;
+  height: 5rem;
+  transform: translateX(-2rem);
+}
+.section1-bx2 p {
+  font-size: 2.3rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.section1-bx2 button {
+  font-size: 2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  width: 15rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  border: none;
+}
+.section1-bx2 button i {
+  margin-right: 0.5rem;
+}
+.section1-bx2 button:hover {
+  background-color: rgb(218, 187, 187);
+}
+.hours h3 {
+  transform: rotate(90deg);
+  font-size: 1.7rem;
+  width: max-content;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  SECTION 2                                 */
+/* -------------------------------------------------------------------------- */
+
+.section2 {
+  width: 100%;
+  height: 60%;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+}
+.section2Container {
+  margin-top: 10rem;
+  max-width: 80%;
+  padding-bottom: 10rem;
+}
+.section2-bx1,
+.section2-bx2,
+.section2-bx3 {
+  max-width: 20%;
+  text-align: center;
+}
+
+.section2-bx1 h3,
+.section2-bx2 h3,
+.section2-bx3 h3 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.section2-bx1 p,
+.section2-bx2 p,
+.section2-bx3 p {
+  font-size: 1.7rem;
+}
+.custom-shape-divider-bottom-1653621097 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1653621097 svg {
+  position: relative;
+  display: block;
+  width: calc(127% + 1.3px);
+  height: 76px;
+}
+
+.custom-shape-divider-bottom-1653621097 .shape-fill {
+  fill: #fde7e7;
+}
+/* -------------------------------------------------------------------------- */
+/*                                  SECTION 3                                 */
+/* -------------------------------------------------------------------------- */
+
+.section3 {
+  width: 100%;
+  height: 80%;
+  background-color: #fde7e7;
+  position: relative;
+}
+.section3Container {
+  max-width: 70%;
+  margin: 8rem;
+}
+.section3-bx1 {
+  max-width: 40%;
+  padding-right: 4rem;
+}
+.section3-bx1 h3 {
+  font-size: 4rem;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 1rem;
+}
+.section3-bx1 p {
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+}
+.section3-bx1 button {
+  font-size: 2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  width: 15rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  border: none;
+  color: white;
+  background-color: black;
+}
+.section3-bx1 button:hover {
+  color: black;
+  background-color: rgb(218, 187, 187);
+}
+.section3-bx1 i {
+  margin-right: 1rem;
+}
+.section3-bx2 {
+  background-color: black;
+  padding: 2rem;
+  border: 5px solid white;
+}
+.custom-shape-divider-top-1653621045 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1653621045 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 59px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1653621045 .shape-fill {
+  fill: #fde7e7;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  SECTION 4                                 */
+/* -------------------------------------------------------------------------- */
+.section4 {
+  position: relative;
+  width: 100%;
+  height: 90%;
+}
+.section4Container {
+  width: 80%;
+  padding: 10rem;
+  margin-right: 6rem;
+  margin-top: 4rem;
+}
+.section4Container span {
+  background-color: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  width: 22rem;
+  padding: 1rem 2.8rem;
+  text-align: right;
+}
+.section4Container h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.section4Container i {
+  margin-right: 0.5rem;
+}
+.section4Image1 {
+  background-image: url(https://images.unsplash.com/photo-1542740348-39501cd6e2b4?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974);
+  background-size: cover;
+  width: 28rem;
+  height: 38rem;
+  border: 5px solid white;
+}
+.section4Image2 {
+  background-image: url(https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1727&q=80);
+  background-size: cover;
+  width: 28rem;
+  height: 38rem;
+  border: 5px solid white;
+}
+.section4Image3 {
+  background-image: url(https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687);
+  background-size: cover;
+  width: 28rem;
+  height: 38rem;
+  border: 5px solid white;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  SECTION 5                                 */
+/* -------------------------------------------------------------------------- */
+
+.section5 {
+  width: 100%;
+  height: 50vh;
+  padding: 5rem;
+}
+.section5Container {
+  background-image: url(https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070);
+  background-size: 110rem;
+  background-repeat: no-repeat;
+  background-position: 150px -200px;
+  width: 140rem;
+  height: 40rem;
+}
+.section5-bx1 {
+  position: relative;
+  height: 70%;
+  width: 20rem;
+  margin-left: 20rem;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+}
+.section5-bx1 h3 {
+  font-size: 1.4rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+}
+.section5-bx1 p {
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+}
+.section5-bx1 span {
+  font-size: 3.5rem;
+}
+.section5-bx1 button {
+  font-size: 1.5rem;
+  font-family: "Roboto Condensed", sans-serif;
+  width: 15rem;
+  padding: 1rem;
+  border: none;
+  color: black;
+  background-color: #fde7e7;
+}
+.section5-bx1 button i {
+  margin-right: 0.5rem;
+}
+.section5-bx1 button:hover {
+  background-color: white;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  SECTION 6                                 */
+/* -------------------------------------------------------------------------- */
+
+.section6 {
+  width: 100%;
+  height: 20vh;
+}
+.section6 h3 {
+  margin-top: 7rem;
+  font-size: 4rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.section6 span i {
+  font-size: 5rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  SECTION 7                                 */
+/* -------------------------------------------------------------------------- */
+
+.section7 {
+  width: 100%;
+  height: 100vh;
+}
+.section7Container {
+  width: 80%;
+  height: 80%;
+}
+.imageColumn {
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0rem 1rem;
+}
+.smallImage img {
+  vertical-align: middle;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.bigImage img {
+  vertical-align: middle;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
