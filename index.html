@@ -14,7 +14,7 @@
     <title>Lumière Salon</title>
   </head>
   <body>
-    <header class="center">
+    <header class="center" id="home">
       <nav class="nav">
         <ul class="row even align">
           <li class="navItem"><span id="logo">Lumière</span></li>
@@ -22,8 +22,8 @@
             <li class="navItem"><a href="#home">HOME</a></li>
             <li class="navItem"><a href="#about">ABOUT</a></li>
             <li class="navItem"><a href="#services">SERVICES</a></li>
+            <li class="navItem"><a href="#promos">PROMOS</a></li>
             <li class="navItem"><a href="#lookbook">LOOKBOOK</a></li>
-            <li class="navItem"><a href="#news">NEWS</a></li>
             <li class="navItem"><a href="#contact">CONTACT</a></li>
             <li class="navItem" id="search">
               <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
@@ -46,33 +46,44 @@
               <a href="#home" class="center navLink">Home</a>
             </li>
             <li>
-              <a href="#services" class="center navLink" id="services2">Services</a>
-            </li>
-            <li>
-              <a href="#lookbook" class="center navLink" id="lookbook2">Lookbook</a>
-            </li>
-            <li>
               <a href="#about" class="center navLink">About us</a>
+            </li>
+            <li>
+              <a href="#services" class="center navLink" id="services2"
+                >Services</a
+              >
             </li>
             <li>
               <a href="#promos" class="center navLink">Promos</a>
             </li>
             <li>
-              <a href="#contact" class="center navLink" id="contact2">Contact Us</a>
+              <a href="#lookbook" class="center navLink" id="lookbook2"
+                >Lookbook</a
+              >
             </li>
             <li>
-              <a href="#bookOnline" class="center navLink" id="book2"><i class="fa-solid fa-minus"></i>Book Appointment<i class="fa-solid fa-minus"></i></a>
+              <a href="#contact" class="center navLink" id="contact2"
+                >Contact Us</a
+              >
             </li>
             <li>
-              <a href="#cart" class="center navLink" id="cart2"><i class="fa-solid fa-bag-shopping"></i></a>
+              <a href="#bookOnline" class="center navLink" id="book2"
+                ><i class="fa-solid fa-minus"></i>Book Appointment<i
+                  class="fa-solid fa-minus"
+                ></i
+              ></a>
             </li>
-
+            <li>
+              <a href="#cart" class="center navLink" id="cart2"
+                ><i class="fa-solid fa-bag-shopping"></i
+              ></a>
+            </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <section class="section1 flex" id="home">
+    <section class="section1 flex">
       <section class="section1Container center">
         <section class="col section1-bx1 align">
           <h1>Belle âme</h1>
@@ -151,7 +162,7 @@
           </p>
         </section>
       </section>
-      <div class="custom-shape-divider-bottom-1653621097">
+      <div class="custom-shape-divider-bottom-1653621097" id="services">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -176,7 +187,7 @@
       </div>
     </section>
 
-    <section class="section3 center" id="services">
+    <section class="section3 center">
       <section class="section3Container flex">
         <section class="section3-bx1 col start even">
           <h3>LET YOUR BEAUTY SHINE</h3>
@@ -252,7 +263,6 @@
         </section>
       </section>
     </section>
-
     <section class="section5 center" id="promos">
       <section class="section5Container align">
         <section class="section5-bx1 col even">
@@ -317,12 +327,10 @@
       </section>
     </section>
 
-
     <script src="./js/app.js"></script>
     <script
       src="https://kit.fontawesome.com/912f06f88e.js"
       crossorigin="anonymous"
     ></script>
-    
   </body>
 </html>
