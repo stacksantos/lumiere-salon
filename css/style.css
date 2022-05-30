@@ -734,17 +734,24 @@ nav {
     left: 0;
     z-index: 1;
   }
-  .dropLinks {
+  .menu {
     display: none;
     position: absolute;
     background-color: var(--darkFaded);
     min-width: 100%;
     z-index: 1;
   }
-  .dropLinks li {
+  .menu li {
     list-style: none;
   }
-  .dropLinks a {
+  .menu-open {
+    display: block;
+    position: absolute;
+    background-color: var(--darkFaded);
+    min-width: 100%;
+    z-index: 1;
+  }
+  .menu a {
     padding: 2rem 0rem;
     color: rgb(255, 255, 255);
     background-color: var(--dark);
@@ -753,12 +760,16 @@ nav {
     font-size: 2rem;
     z-index: 1;
   }
-  .dropLinks a:hover {
+  .selected-clicked {
+    background-color: white;
+    color: black;
+  }
+  .menu a:hover {
     background-color: var(--light);
     transition: all ease 0.4s;
     color: var(--dark);
   }
-  .dropDown:hover .dropLinks {
+  .menu:hover .dropLinks {
     display: block;
   }
   #book2 i {
