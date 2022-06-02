@@ -946,3 +946,99 @@ nav {
   margin-top: 10rem;
   border-top: 2px solid black;
 }
+.footer-bxLeft, .footer-bxRight {
+  width: 100%;
+  height: 80%;
+  padding-top: 3rem;
+}
+
+/* Left footer column */
+.bottomNav {
+  width: 100%;
+}
+.bottomNav li, .bottomNav a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.bottomNav .innerNav li {
+  height: 1rem;
+}
+.bottomNav a:hover {
+  color: white;
+}
+.bottomNav .innerNav a {
+  font-size: 1.5rem;
+}
+.footerIcons {
+  margin-top: 2rem;
+}
+.footerIcons i {
+  font-size: 2rem;
+  padding: 1rem;
+}
+#logo2 {
+  font-family: var(--yellowtail);
+  font-size: 3rem;
+  font-weight: 600;
+}
+#book2 a {
+  font-size: 1.5rem;
+  font-family: var(--roboto);
+  color: white;
+  padding: .4rem;
+  background-color: black;
+  border-radius: 5px;
+  margin-top: 2rem;
+  width: max-content;
+}
+#book2 a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Right Footer column */
+.footer-bxRight {
+  margin-top: 4.7rem;
+  border-left: 2px dotted white;
+}
+.footer-bxRight li {
+  list-style: none;
+  min-width: max-content;
+  padding: .7rem;
+  font-size: 1.6rem;
+  font-family: var(--raleway);
+}
+
+.footer-bxRight a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: var(--roboto);
+  font-weight: 600;
+  color: black;
+
+}
+.footer-bxRight a:hover {
+  color: white;
+}
+.footer-bxRight i {
+  font-size: 3.5rem;
+  margin-right: 1rem;
+}
+.footer-bxRight i:hover {
+  color: white;
+}
+
+/* footer copyright */
+.footerCopyright {
+  height: 20%;
+}
+.footerCopyright div {
+  font-size: 1.5rem;
+  font-family: var(--roboto);
+  height: min-content;
+}
+.footerCopyright img {
+  width: 140px;
+  transform: translate(-10px)
+}
