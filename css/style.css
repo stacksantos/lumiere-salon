@@ -986,7 +986,7 @@ nav {
   font-size: 1.5rem;
   font-family: var(--roboto);
   color: white;
-  padding: .4rem;
+  padding: .4rem .8rem;
   background-color: black;
   border-radius: 5px;
   margin-top: 2rem;
@@ -999,8 +999,9 @@ nav {
 
 /* Right Footer column */
 .footer-bxRight {
-  margin-top: 4.7rem;
+  margin-top: 4rem;
   border-left: 2px dotted white;
+  padding-left: 3rem;
 }
 .footer-bxRight li {
   list-style: none;
@@ -1031,7 +1032,7 @@ nav {
 
 /* footer copyright */
 .footerCopyright {
-  height: 20%;
+  background-color: var(--primary);
 }
 .footerCopyright div {
   font-size: 1.5rem;
@@ -1039,6 +1040,11 @@ nav {
   height: min-content;
 }
 .footerCopyright img {
-  width: 140px;
+  width: 160px;
   transform: translate(-10px)
+}
+@media all and (max-width: 480px) {
+  .footerCopyright img {
+    width: 120px;
+  }
 }
