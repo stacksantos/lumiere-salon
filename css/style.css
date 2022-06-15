@@ -1024,7 +1024,7 @@ nav {
   font-size: 1.5rem;
   font-family: var(--roboto);
   color: white;
-  padding: .4rem .8rem;
+  padding: .4rem;
   background-color: black;
   border-radius: 5px;
 <<<<<<< HEAD
@@ -1041,9 +1041,8 @@ nav {
 
 /* Right Footer column */
 .footer-bxRight {
-  margin-top: 4rem;
+  margin-top: 4.7rem;
   border-left: 2px dotted white;
-  padding-left: 3rem;
 }
 .footer-bxRight li {
   list-style: none;
@@ -1074,7 +1073,7 @@ nav {
 
 /* footer copyright */
 .footerCopyright {
-  background-color: var(--primary);
+  height: 20%;
 }
 .footerCopyright div {
   font-size: 1.5rem;
@@ -1082,11 +1081,6 @@ nav {
   height: min-content;
 }
 .footerCopyright img {
-  width: 160px;
+  width: 140px;
   transform: translate(-10px)
-}
-@media all and (max-width: 480px) {
-  .footerCopyright img {
-    width: 120px;
-  }
 }
