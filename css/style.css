@@ -70,11 +70,7 @@ nav a {
   margin: 0rem 1rem;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-<<<<<<< HEAD
   padding: 1.3rem 1.4rem;
-=======
-  padding: 2rem 0rem;
->>>>>>> d05a863d188b95dc1d1a3437e0d3470c777dc9c3
 }
 #book {
   font-family: "Raleway", sans-serif;
@@ -111,7 +107,6 @@ nav {
 .nav2 {
   display: none;
 }
-<<<<<<< HEAD
 .active {
   background-color:rgb(218, 187, 187);
   border-bottom: 3px solid black;
@@ -135,8 +130,6 @@ nav {
 
 
 
-=======
->>>>>>> d05a863d188b95dc1d1a3437e0d3470c777dc9c3
 /* -------------------------------------------------------------------------- */
 /*                            SECTION 1 - main content                        */
 /* -------------------------------------------------------------------------- */
@@ -971,7 +964,7 @@ nav {
 
 .footer {
   width: 100%;
-  height: 50vh;
+  height: 100%;
   background-color: var(--primary);
   margin-top: 10rem;
   border-top: 2px solid black;
@@ -992,11 +985,7 @@ nav {
   color: black;
 }
 .bottomNav .innerNav li {
-<<<<<<< HEAD
   height: 2rem;
-=======
-  height: 1rem;
->>>>>>> d05a863d188b95dc1d1a3437e0d3470c777dc9c3
 }
 .bottomNav a:hover {
   color: white;
@@ -1015,10 +1004,7 @@ nav {
   font-family: var(--yellowtail);
   font-size: 3rem;
   font-weight: 600;
-<<<<<<< HEAD
   margin-top: 3rem;
-=======
->>>>>>> d05a863d188b95dc1d1a3437e0d3470c777dc9c3
 }
 #book2 a {
   font-size: 1.5rem;
@@ -1027,11 +1013,7 @@ nav {
   padding: .4rem;
   background-color: black;
   border-radius: 5px;
-<<<<<<< HEAD
   margin-top: 3rem;
-=======
-  margin-top: 2rem;
->>>>>>> d05a863d188b95dc1d1a3437e0d3470c777dc9c3
   width: max-content;
 }
 #book2 a:hover {
